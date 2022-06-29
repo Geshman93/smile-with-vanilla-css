@@ -1,0 +1,55 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+    box-sizing: border-box;
+}
+body {
+    background: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.smile {
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    background: rgb(238, 206, 2);
+}
+.eyes {
+    display: flex;
+    justify-content: space-around;
+    height: 6.5rem;
+    width: 20rem;
+    position: absolute;
+    top: 37%;
+}
+.eye {
+    height: 5rem;
+    width: 5rem;
+    background: #fff;
+    border-radius: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.eyeball {
+    height: 2rem;
+    width: 2rem;
+    background: #000;
+    border-radius: 50%;
+}
+.mouth {
+    height: 4rem;
+    width: 20rem;
+    position: absolute;
+    top: 135%;
+    display: flex;
+    justify-content: center;
+}
+.lips {
+    height: 4rem;
+    width: 4rem;
+    background: rgb(150, 8, 8);
+    border-radius: 50%;
+}
